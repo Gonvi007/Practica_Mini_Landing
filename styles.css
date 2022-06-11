@@ -1,3 +1,18 @@
+/* NOTAS
+:root { Funciona para crear propiedades personalidadas que aceptan cualquier valor que se podra usar en cualquier otro momento
+    Se usa 2 guiones medios para declararlos
+    
+    --borders-colores: 7px dashed black;
+    --color-principal: crimson;
+     y se llama: 
+    
+    border: var(--nombreFuncion);
+    color: var(--crimson);
+    
+
+}
+*/
+
 * {
     margin: 0;
     box-sizing: border-box;
